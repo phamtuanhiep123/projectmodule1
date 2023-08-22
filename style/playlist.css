@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  /* .music-image {
+    border: 1px solid #333;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 100px;
+  
+  }*/
+  .control-music {
+    display: flex;
+    flex-direction: column;
+  }
+  .music-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .contanier-music {
+    margin-top: 5px;
+    margin-left: 400px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+     border: 1px solid #333
+  }
+  .list-music {
+    margin-left: 40px;
+  }
+  .list-music-child {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 10px;
+    
+   
+  }
+  .list-music-child div:nth-child(1) {
+    border: 1px solid #333;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .list-music-child div img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* Control */
+  .player {
+    display: none;
+    margin-bottom: 0px;
+  }
+  .control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px 0 8px 0;
+    cursor: pointer;
+  }
+  
+  .control .btn {
+    color: #666;
+    padding: 18px;
+    font-size: 18px;
+  }
+  
+  .control .btn.active {
+    color: var(--primary-color);
+  }
+  
+  .control .btn-toggle-play {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

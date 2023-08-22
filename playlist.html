@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/playlist.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <!-- List music -->
+
+      <div class="contanier-music">
+       <!-- script render list music -->
+      </div>
+      <audio src="" id="audio"></audio>
+      <!-- Control -->
+      <div class="player" id="id-play-music">
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="btn btn-prev">
+            <i class="fas fa-step-backward"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+           
+            <i class="fas fa-play icon-play"></i>
+          </div>
+          <div class="btnPause">
+            <i class="fas fa-pause icon-pause"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fas fa-step-forward"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fas fa-random"></i>
+          </div>
+          <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+
+        </div>
+      </div>
+
+      <script src="js/playlist.js"></script>
+    </div>
+
+    <!-- <script>
+      const btnPlay = document.getElementById("btnPlay");
+      console.log(btnPlay);
+      btnPlay.addEventListener("click", function () {
+        document.getElementById("id-play-music").style.display = "block";
+      });
+    </script> -->
+  </body>
+</html>
